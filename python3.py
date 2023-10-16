@@ -10,7 +10,7 @@ def factorial(n):
                 data.append(row)
         return data
 
-   
+
 
     # Function to write processed data to a new CSV file
     def write_csv(filename, data):
