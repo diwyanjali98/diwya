@@ -1,0 +1,12 @@
+# File handling
+file_path = "example.txt"
+
+# Writing to a file
+with open(file_path, "w") as file:
+    file.write("This is an example text.")
+
+# Reading from a file
+with open(file_path, "r") as file:
+    content = file.read()
+
+print("File content:", content)
