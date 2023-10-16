@@ -1,0 +1,11 @@
+# Variable assignment and data types
+name = "John"
+age = 25
+height = 1.75
+is_student = False
+
+# Printing variables
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Is a student?", is_student)
